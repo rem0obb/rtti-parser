@@ -30,7 +30,7 @@ After:
 
 ### Install & Run
 
-1. git clone git@github.com:rem0obb/better-rtti-parser.git
+1. `git clone git@github.com:rem0obb/better-rtti-parser.git`
 2. Click on "IDA > File > Script file" and choose rtti_parse.py
 3. Happy RE time!
 
@@ -69,7 +69,7 @@ Click on ignore for this database and continue.
 
 ### Test environment
 
-- Windows 10 2021 H1
+- Windows 10 2021 H1, Linux
 - IDA Pro 7.6, 9.2
 - Python 3.10 ( I'm surprised this python version works well )
 - x64 GNU g++ binary
@@ -84,4 +84,4 @@ Example output ->
 
 ### Credits
 
-1. [better-rtti-parser] https://github.com/MlsDmitry/better-rtti-parser
+1. [better-rtti-parser](https://github.com/MlsDmitry/better-rtti-parser)
