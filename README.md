@@ -1,15 +1,6 @@
 ### RTTI parser
----
 
-Parses RTTI information from executable.
-
----
-
-This repository and author are open to feature requests. You're more than welcome to open a feature request in issue tab. For template see [FEATURE REQUEST](./FEATURE_REQUEST.md)
-
-Post your issues here https://github.com/MlsDmitry/better-rtti-parser/issues.
-
----
+Parses RTTI information from executable with support for IDA 9.2
 
 ### Example
 
@@ -39,7 +30,7 @@ After:
 
 ### Install & Run
 
-1. git clone https://github.com/MlsDmitry/better-rtti-parser
+1. git clone git@github.com:rem0obb/better-rtti-parser.git
 2. Click on "IDA > File > Script file" and choose rtti_parse.py
 3. Happy RE time!
 
@@ -63,7 +54,7 @@ Click on ignore for this database and continue.
 ### Current cover 
 
 - [x] GNU g++ 64-bit 
-- [x] IDA Pro 7.4-7.6
+- [x] IDA Pro 7.4, 7.6, 9.2
 - [x] Rename functions to BaseClass::AnotherClass::sub_4B5A format
 - [x] Create structures for vtables
 - [x] Fix: some functions are only renamed, but retyping fails
@@ -79,7 +70,7 @@ Click on ignore for this database and continue.
 ### Test environment
 
 - Windows 10 2021 H1
-- IDA Pro 7.6
+- IDA Pro 7.6, 9.2
 - Python 3.10 ( I'm surprised this python version works well )
 - x64 GNU g++ binary
 
@@ -93,5 +84,4 @@ Example output ->
 
 ### Credits
 
-1. [@IgorSkochinsky](https://twitter.com/igorskochinsky) for http://www.hexblog.com/wp-content/uploads/2012/06/Recon-2012-Skochinsky-Compiler-Internals.pdf ( plugin algo entirely based on his research )
-2. [@layle_ctf](https://twitter.com/layle_ctf) made my life easier with IDA remote script execution and debugging https://github.com/ioncodes/idacode
+1. [better-rtti-parser] https://github.com/MlsDmitry/better-rtti-parser
